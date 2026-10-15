@@ -6,7 +6,7 @@ function saudacao(nome: string): string {
     return `Olá, ${nome}!`;
 }
 
-const resultado = multiplicaNúmeros(5, 10);
-const mensagem = saudacao("João");
-console.log(`Resultado da multiplicação: ${resultado}`);
-console.log(mensagem);
+const resultadoMultiplicacao: number = multiplicaNúmeros(2.5, 3.2);
+const mensagemSaudacao: string = saudacao("Douglas");
+console.log(`Resultado da multiplicação: ${resultadoMultiplicacao}`);
+console.log(mensagemSaudacao);
